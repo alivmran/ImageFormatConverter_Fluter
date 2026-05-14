@@ -1,5 +1,3 @@
-library image_format_converter;
-
 import 'dart:typed_data';
 import 'package:image/image.dart' as img;
 
@@ -15,7 +13,6 @@ class ImageFormatConverter {
       }
 
       return img.encodePng(decodedImage);
-      
     } catch (e) {
       // Removed the print statement for a clean console
       return null;
@@ -33,7 +30,6 @@ class ImageFormatConverter {
       }
 
       return img.encodeJpg(decodedImage, quality: quality);
-      
     } catch (e) {
       // Removed the print statement for a clean console
       return null;
