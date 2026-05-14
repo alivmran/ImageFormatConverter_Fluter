@@ -17,4 +17,4 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  image_format_converter: ^0.0.1
+  image_format_converter: ^0.0.3
