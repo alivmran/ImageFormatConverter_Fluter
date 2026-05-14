@@ -1,0 +1,20 @@
+name: image_format_converter
+description: "A pure Dart package that automatically intercepts and converts unsupported image formats (like JPEG) into standardized PNG files for strict upload requirements."
+version: 0.0.2
+homepage: https://github.com/alivmran/ImageFormatConverter_Fluter.git
+repository: https://github.com/alivmran/ImageFormatConverter_Fluter.git
+
+environment:
+  sdk: ^3.11.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  test: ^1.30.0
